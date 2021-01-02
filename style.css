@@ -1,0 +1,50 @@
+html, body {
+  background-color: #1B1C1F;
+  color: white;
+  font-family: Verdana;
+  height: 100vh;
+  letter-spacing: 0.1em;
+  margin: 0px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.content {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  font-size: min(5vw, 60px);
+  margin: 0.5vw;
+}
+
+.subtitle {
+  color: #A7B0B5;
+  font-size: min(2.5vw, 30px);
+  margin: 0.5vw;
+}
+
+button {
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid #A7B0B5;
+  box-sizing: border-box;
+  color: white;
+  font-size: min(2.5vw, 30px);
+  margin: 1.5vw;
+  min-width: 100px;
+  padding: 5px 10px;
+  width: 50%;
+}
+
+button:hover {
+  border: 1px solid white;
+}
+
+button:active {
+  border: 1px solid #A7B0B5;
+}
