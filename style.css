@@ -39,6 +39,7 @@ button {
   min-width: 100px;
   padding: 5px 10px;
   width: 50%;
+  cursor: pointer;
 }
 
 button:hover {
